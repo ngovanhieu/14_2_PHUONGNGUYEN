@@ -220,6 +220,7 @@
             animation: text-crush 2s forwards 1s;
             cursor: pointer;
         }
+        
         @keyframes text-crush{
             0%{
                 color: black;

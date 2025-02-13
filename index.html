@@ -15,9 +15,24 @@
 
 <body>
     <div class="wrapper">
+        <audio id="myAudio" src="./Nhac-Chuong-Em-Oi-Anh-Tu-XHTDRLX.mp3"></audio>
+        <button style="
+            font-size: 16px;
+            font-family: cursive;
+            color: #fc406f;
+            cursor: pointer;
+             border: none;
+             outline: none;
+            " onclick="playAudio()">B1: Em bấm vào đây đi</button>
+        <script>
+            function playAudio() {
+                document.getElementById("myAudio").play();
+            }
+        </script>
+
         <div class="items"></div>
         <div id="text" onclick="buttun();">
-           Bấm vào đây nè em..
+            B2: Đợi một lúc.. bấm vào đây để xem tiếp
         </div>
         <div class="traitym">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1875.93 493.34">
@@ -54,14 +69,14 @@
             <img src="./IMG_5246.JPG" alt="">
             <audio autoplay loop>
                 <source src="./Nhac-Chuong-Em-Oi-Anh-Tu-XHTDRLX.mp3">
-              </audio>
+            </audio>
         </div>
-      
+
         <div class="content-wrapper">
             <div class="content">
                 <div class="text1">Ngô Hiếu</div>
                 <span id="number">1000 </span>
-                <div class="text1" style="margin-left: 10px;" >Phương Nguyên</div>
+                <div class="text1" style="margin-left: 10px;">Phương Nguyên</div>
             </div>
         </div>
         <div class="container">
@@ -71,8 +86,7 @@
                         <img src="crush.png" alt="">
                     </div>
                     <div class="text-crush">
-                        <p>Nếu mà cổ thấy thích ảnh làm điều này với mình cổ thì ...cổ bấm tiếp vào hộp thư  </p>
-                        <p>Xem đến đây nếu mà nói ảnh rảnh... thì thật sự ảnh chỉ rãnh với mình cổ.</p> <br>
+                        <p>B3:khoan nói ảnh rãnh... bấm vào đây anh nghiêm túc nè</p> <br>
                     </div>
                     <div class="icon" onclick="mail();">
                         <i class="fa-regular fa-envelope"></i>
